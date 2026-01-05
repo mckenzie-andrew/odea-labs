@@ -1,6 +1,7 @@
 # The Data Engineering Labs
 
 [![Status](https://img.shields.io/badge/Status-Active_Development-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-green)]()
 
 Welcome to the workshop of **The Data Engineering Commons**. This repository contains the hands-on exercises, code samples, and Docker environments that accompany the **[Curriculum](https://github.com/DECommons/curriculum)**.
 
