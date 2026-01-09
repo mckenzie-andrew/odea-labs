@@ -1,28 +1,26 @@
-# The Data Engineering Labs
+$ $he Build: Data Engineering Labs
+Welcome to the **Workshop** of [The Open Conduit](https://github.com/OpenConduit).
 
-[![Status](https://img.shields.io/badge/Status-Active_Development-blue)]()
-[![License](https://img.shields.io/badge/License-MIT-green)]()
+This repository contains the hands-on exercises, "broken-by-design" scenarios, and containerized infrastructure that accompany [The Specs (Curriculum)](https://github.com/OpenConduit/curriculum).
 
-Welcome to the workshop of **The Data Engineering Commons**. This repository contains the hands-on exercises, code samples, and Docker environments that accompany the **[Curriculum](https://github.com/DECommons/curriculum)**.
+## 🛠️ Philosophy: "Stress Test Everything"
+We believe that you cannot learn Data Engineering by reading about it. You must build it, and more importantly, you must **fix it when it breaks**.
 
-## 🛠️ Philosophy: "Break It to Learn It"
-We believe the only way to learn Data Engineering is to get your hands dirty. These labs are designed to be run locally (or in a cloud shell) using containers, ensuring that everyone has the same environment regardless of their OS.
+These labs are designed to be run locally on your own machine. We do not provide a sanitized browser sandbox because real engineering happens in the terminal, not in a web app.
 
-## 📂 Repository Structure
-* `/foundations`: SQL, Python for DE, and Shell scripting basics.
-* `/pipelines`: Building your first ETL pipelines.
-* `/infrastructure`: Docker-compose files for spinning up databases, Airflow, etc.
-* `/capstones`: Large, multi-stage projects.
+## ⚡ Tooling Requirements
+To operate these labs, your local environment must be equipped with:
+- Docker Desktop (The engine).
+- VS Code (The workbench) (or any suitable alternative).
+- Git (The version control).
 
-## ⚡ Prerequisites
-To use these labs effectively, you will need:
-* [Docker Desktop](https://www.docker.com/products/docker-desktop).
-* [VS Code](https://code.visualstudio.com/) (Recommended).
-* Git.
+## 🚀 Initialization Protocol
+1. **Clone the Facility**:
+```bash
+git clone https://github.com/OpenConduit/labs.git
+```
+2. **Enter the Zone**: Navigate to the specific lab folder you are working on (e.g., cd foundations/lab-01).
+3. **Follow the SOP**: Read the README.md inside that specific folder for deployment instructions.
 
-## 🚀 Getting Started
-1.  Clone this repository.
-2.  Navigate to the specific lab folder (e.g., `cd foundations/lab-01`).
-3.  Follow the `README.md` inside that specific folder.
-
-*Note: These labs are currently under active construction.*
+---
+*Note: This facility is currently in the Commissioning Phase. Expect frequent updates to the infrastructure.*
